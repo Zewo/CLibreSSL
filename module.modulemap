@@ -1,3 +1,6 @@
 module CLibtls [system] {
     header "libtls.h"
+    link "tls"
+    link "ssl"
+    link "crypto"
 }
