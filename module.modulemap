@@ -1,0 +1,3 @@
+module CLibtls [system] {
+    header "libtls.h"
+}
