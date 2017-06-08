@@ -1,5 +1,5 @@
-#ifndef __ZEWO_LIBTLS_H__
-#define __ZEWO_LIBTLS_H__
+#ifndef __CLIBTLS_H__
+#define __CLIBTLS_H__
 
 #include <tls.h>
 
