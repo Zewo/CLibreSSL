@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CLibtls",
+    name: "CLibreSSL",
     pkgConfig: "libtls",
     providers: [
         .Brew("libressl"),

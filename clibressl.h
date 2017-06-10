@@ -1,14 +1,14 @@
-#ifndef __CLIBTLS_H__
-#define __CLIBTLS_H__
+#ifndef __CLIBRESSL_H__
+#define __CLIBRESSL_H__
 
 #include <tls.h>
+#include <openssl/ssl.h>
+#include <openssl/crypto.h>
 
 #include <openssl/evp.h>
 #include <openssl/rand.h>
 #include <openssl/err.h>
-#include <openssl/crypto.h>
 #include <openssl/md5.h>
-#include <openssl/ssl.h>
 #include <openssl/x509v3.h>
 #include <openssl/bn.h>
 #include <openssl/srtp.h>
