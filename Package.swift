@@ -1,4 +1,4 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
@@ -6,7 +6,7 @@ let package = Package(
     name: "CLibreSSL",
     pkgConfig: "libtls",
     providers: [
-        .Brew("libressl"),
-        .Apt("libressl"),
+        .brew("libressl"),
+        .apt("libressl"),
     ]
 )
