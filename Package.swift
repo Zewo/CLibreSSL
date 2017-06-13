@@ -6,7 +6,7 @@ let package = Package(
     name: "CLibreSSL",
     pkgConfig: "libtls",
     providers: [
-        .brew("libressl"),
-        .apt("libressl"),
+        .brew(["libressl"]),
+        .apt(["libressl"]),
     ]
 )
